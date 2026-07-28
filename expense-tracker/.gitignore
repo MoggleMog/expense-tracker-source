@@ -1,0 +1,4 @@
+data/expenses.csv
+target/
+.idea/
+*.iml

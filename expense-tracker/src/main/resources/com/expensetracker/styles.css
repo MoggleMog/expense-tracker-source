@@ -1,0 +1,120 @@
+/* Personal Expense Tracker - Stylesheet */
+
+#root {
+    -fx-background-color: #F4F6F8;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#header {
+    -fx-background-color: #2C3E50;
+}
+
+#app-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#app-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #BDC3C7;
+}
+
+#section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+}
+
+#form-panel {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 6, 0, 0, 1);
+}
+
+.field-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #566573;
+}
+
+.text-field, .date-picker, .combo-box {
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #D5D8DC;
+}
+
+#primary-button {
+    -fx-background-color: #2E86C1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+#primary-button:hover {
+    -fx-background-color: #21618C;
+}
+
+#secondary-button {
+    -fx-background-color: #E5E8E8;
+    -fx-text-fill: #2C3E50;
+    -fx-background-radius: 4px;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+#secondary-button:hover {
+    -fx-background-color: #D5D8DC;
+}
+
+#danger-button {
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-background-radius: 4px;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+#danger-button:hover {
+    -fx-background-color: #C0392B;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.06), 6, 0, 0, 1);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #34495E;
+    -fx-background-radius: 4px 4px 0 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F8F9F9;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #D6EAF8;
+}
+
+#status-bar {
+    -fx-background-color: #2C3E50;
+}
+
+#status-label {
+    -fx-text-fill: #BDC3C7;
+    -fx-font-size: 12px;
+}
+
+#total-label {
+    -fx-text-fill: #2ECC71;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
